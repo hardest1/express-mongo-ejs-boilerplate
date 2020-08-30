@@ -52,7 +52,7 @@ if(!process.env.MONGO_URL){
   shutDown(1);
 }
 
-//db.init();
+db.init();
 
 app.set('view engine', 'ejs');
 app.set('views', './app/views');
