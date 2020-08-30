@@ -1,0 +1,38 @@
+{
+  "name": "express-mongo-ejs-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic boilerplate to start an express server application. Uses MongoDB with Mongoose for storage and ejs for template rendering",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "start-dev": "nodemon .",
+    "test": "jest"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jest": "^26.4.2",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.2",
+    "nodejs-base64": "^1.0.3",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardest1/express-mongo-ejs-boilerplate.git"
+  },
+  "author": "hardest1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hardest1/express-mongo-ejs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hardest1/express-mongo-ejs-boilerplate#readme"
+}
